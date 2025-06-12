@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTaxaBasal.Views.CadastroPage"
+             Title="CadastroPage">
+    <Grid>
+        <Image Source="muscular_man.png"
+           Aspect="AspectFill"
+           Opacity="0.8"/>
+
+
+
+
+        <VerticalStackLayout Spacing="20" HorizontalOptions="Center" BackgroundColor="Transparent" VerticalOptions="Center">
+
+           
+
+            <Label 
+                Text="Cadastro"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Padding="10"
+                FontAttributes="Bold"
+                Opacity="1.0"/>
+            
+            <Frame CornerRadius="40" BackgroundColor="Orange" Opacity="0.7">
+
+                <VerticalStackLayout>
+                    <Label Text="Genero" HorizontalTextAlignment="Center"/>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label Text="Homem" Padding="0,10,0,0"/>
+                        <CheckBox></CheckBox>
+                        <Label Text="Mulher" Padding="0,10,0,0"/>
+                        <CheckBox></CheckBox>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <Entry
+                HorizontalOptions="Center"
+                Placeholder="Nome"
+                PlaceholderColor="Black"   
+                HorizontalTextAlignment="Start"
+                WidthRequest="300"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                Opacity="0.9"/>
+            <Entry
+                HorizontalOptions="Center"
+                Placeholder="Email"
+                PlaceholderColor="Black"   
+                HorizontalTextAlignment="Start"
+                WidthRequest="300"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                Opacity="0.9"/>
+
+
+
+
+            <Entry
+                HorizontalOptions="Center"
+                Placeholder="Senha"
+                PlaceholderColor="Black"   
+                HorizontalTextAlignment="Start"
+                WidthRequest="300"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                Opacity="0.9"/>
+            <Entry
+                HorizontalOptions="Center"
+                Placeholder="Confirmar Senha"
+                PlaceholderColor="Black"   
+                HorizontalTextAlignment="Start"
+                WidthRequest="300"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                Opacity="0.9"/>
+            
+            
+            
+            <Button
+                Text="Cadastrar"
+                MaximumWidthRequest="100"
+                BackgroundColor="Orange"
+                 Opacity="0.6"
+                FontAttributes="Bold"/>
+
+            <Button
+                Text="Fazer Login"
+                WidthRequest="110"
+                BackgroundColor="Gray"
+                TextColor="BlueViolet"
+                Opacity="0.7"
+                FontAttributes="Bold"/> 
+
+
+
+
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

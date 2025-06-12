@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppTaxaBasal.Views.LoginPage">
+             x:Class="MauiAppTaxaBasal.Views.LoginPage"
+             Title="LoginPage">
 
 
     <Grid>
@@ -12,7 +13,7 @@
 
 
 
-        <VerticalStackLayout Spacing="10" HorizontalOptions="Center" BackgroundColor="Transparent" VerticalOptions="Center">
+        <VerticalStackLayout Spacing="35" HorizontalOptions="Center" BackgroundColor="Transparent" VerticalOptions="Center">
 
             
             
@@ -47,15 +48,18 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 IsPassword="True"
-                Opacity="0.9"/>
+                Opacity="0.9"
+                x:Name="PasswordEntry"/>
 
                 <ImageButton
+                x:Name="PasswordViewButton"
                 Grid.Column="1"
                 Source="olho_closed.png"
                 BackgroundColor="Orange"
                 CornerRadius="10"
                 WidthRequest="40"
-                HeightRequest="40"/>
+                HeightRequest="40"
+                Clicked="PasswordViewButton_Clicked"/>
                 
             </Grid>
 
@@ -64,9 +68,17 @@
          <Button
             Text="Entrar"
             MaximumWidthRequest="80"
-            BackgroundColor="Gray"/>
+            BackgroundColor="Orange"
+             Opacity="0.6"/>
 
-        
+         <Button
+            Text="Criar conta!"
+            WidthRequest="100"
+            BackgroundColor="Gray"
+            TextColor="BlueViolet"
+            Opacity="0.7"/>
+
+
 
 
         </VerticalStackLayout>
