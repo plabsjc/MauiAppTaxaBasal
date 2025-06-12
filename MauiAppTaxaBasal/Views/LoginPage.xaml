@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTaxaBasal.Views.LoginPage">
+
+
+    <Grid>
+        <Image Source="muscular_man.png"
+               Aspect="AspectFill"
+               Opacity="0.8"/>
+
+
+
+
+        <VerticalStackLayout Spacing="10" HorizontalOptions="Center" BackgroundColor="Transparent" VerticalOptions="Center">
+
+            
+            
+            <Label 
+            Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Entry
+            HorizontalOptions="Center"
+            Placeholder="Email"
+            PlaceholderColor="Black"   
+            HorizontalTextAlignment="Start"
+            WidthRequest="300"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            Opacity="0.9"/>
+
+            <Grid WidthRequest="300"
+              HeightRequest="45"
+              BackgroundColor="Transparent"
+              ColumnDefinitions="*, Auto"
+              VerticalOptions="Center">
+
+                <Entry
+                HorizontalOptions="Start"
+                Placeholder="Senha"
+                PlaceholderColor="Black" 
+                VerticalTextAlignment="Center" 
+                Grid.Column="0"
+                WidthRequest="250"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                IsPassword="True"
+                Opacity="0.9"/>
+
+                <ImageButton
+                Grid.Column="1"
+                Source="olho_closed.png"
+                BackgroundColor="Orange"
+                CornerRadius="10"
+                WidthRequest="40"
+                HeightRequest="40"/>
+                
+            </Grid>
+
+
+
+         <Button
+            Text="Entrar"
+            MaximumWidthRequest="80"
+            BackgroundColor="Gray"/>
+
+        
+
+
+        </VerticalStackLayout>
+        
+    </Grid>
+</ContentPage>
