@@ -9,7 +9,7 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var window = new Window(new NavigationPage(new Views.CadastroPage()));
+            var window = new Window(new NavigationPage(new Views.PrincipalPage()));
             #if WINDOWS
             window.Width = 400;
             window.Height = 800;

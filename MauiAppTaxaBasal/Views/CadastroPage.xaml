@@ -28,9 +28,9 @@
                 <VerticalStackLayout>
                     <Label Text="Genero" HorizontalTextAlignment="Center"/>
                     <HorizontalStackLayout HorizontalOptions="Center">
-                        <Label Text="Homem" Padding="0,10,0,0"/>
+                        <Label Text="Masculino" Padding="0,10,0,0"/>
                         <CheckBox></CheckBox>
-                        <Label Text="Mulher" Padding="0,10,0,0"/>
+                        <Label Text="Feminino" Padding="0,10,0,0"/>
                         <CheckBox></CheckBox>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
