@@ -27,15 +27,40 @@
                    MinimumWidthRequest="350">
 
                 <VerticalStackLayout>
-                    
+
                     <HorizontalStackLayout HorizontalOptions="Center">
+
                         <Label Text="Peso" Padding="0,10,10,0" FontAttributes="Bold" FontSize="15"/>
                         <Entry WidthRequest="60" BackgroundColor="DarkOrange" Keyboard="Numeric"/>
-                        <Label Text="Altura" Padding="40,10,10,10" FontAttributes="Bold" FontSize="15"/>
+                        <Label Text="Altura" Padding="20,10,10,10" FontAttributes="Bold" FontSize="15"/>
                         <Entry WidthRequest="60" BackgroundColor="DarkOrange" Keyboard="Numeric"/>
+
                     </HorizontalStackLayout>
+
+
                 </VerticalStackLayout>
             </Frame>
+
+            <Frame CornerRadius="40" BackgroundColor="Orange" Opacity="0.7"
+       MaximumWidthRequest="400"
+       MinimumWidthRequest="350">
+
+                <VerticalStackLayout>
+
+                    <HorizontalStackLayout HorizontalOptions="Center">
+
+                        <Label Text="Peso" Padding="0,10,10,0" FontAttributes="Bold" FontSize="15"/>
+                        <Entry WidthRequest="60" BackgroundColor="DarkOrange" Keyboard="Numeric"/>
+                        <Label Text="Altura" Padding="20,10,10,10" FontAttributes="Bold" FontSize="15"/>
+                        <Entry WidthRequest="60" BackgroundColor="DarkOrange" Keyboard="Numeric"/>
+
+                    </HorizontalStackLayout>
+
+
+                </VerticalStackLayout>
+            </Frame>
+
+
 
             <Frame CornerRadius="40" BackgroundColor="Orange" Opacity="0.7"
                    MaximumWidthRequest="400"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTaxaBasal.Views.NivelExercícioDuvida"
+             Title="NivelExercício">
+
+    <Grid>
+        <Image Source="muscular_man.png"
+               Aspect="AspectFill"/>
+
+        <VerticalStackLayout Opacity="0.9" Spacing="5" Margin="8" Padding="5">
+
+            <Frame BackgroundColor="Azure" Padding="5">
+                <Label Text="1. Sedentário &#10;    Pouco ou nenhuma atividade. &#10;    Caminhadas curtas. &#10;    Gastro Calórico muito baixo. " TextColor="Black"/>
+            </Frame>
+
+            <Frame BackgroundColor="Azure" Padding="5">
+                <Label Text="2. Levemente Ativo &#10;    Exercícios leves 1 a 2 vezes por semana. &#10;    Pode incluir caminhadas de 20 a 30 min por dia. &#10;    Estilo de vida um pouco mais ativo. " TextColor="Black"/>
+            </Frame>
+
+            <Frame BackgroundColor="Azure" Padding="5">
+                <Label Text="3. Moderadamente Ativo &#10;    Pratica atividades físicas moderadas 3 a 5 vezes por semana. &#10;    Pode incluir academia, corrida leve, ciclismo, esportes ocasionais. &#10;    Entra nas recomendações mínimas da OMS. " TextColor="Black"/>
+            </Frame>
+
+            <Frame BackgroundColor="Azure" Padding="5">
+                <Label Text="4. Muito Ativo &#10;    Treina 6 a 7 dias por semana, com intensidade moderada a alta. &#10;    Mistura treinos de força, cardio, esportes ou treinos funcionais. &#10;    Normalmente tem metas estéticas ou de desempenho. " TextColor="Black"/>
+            </Frame>
+
+            <Frame BackgroundColor="Azure" Padding="5">
+                <Label Text="5. Atleta / Altamente ativo &#10;    Treinamento intenso e disciplinado quase diariamente (às vezes 2x ao dia).&#10;    Inclui atletas amadores de alto nível e profissionais. " TextColor="Black"/>
+            </Frame>
+
+            <Button x:Name="btnNivelExercicioVoltar" Text="Voltar" WidthRequest="100" BackgroundColor="DarkOrange" Margin="10"/>
+
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
